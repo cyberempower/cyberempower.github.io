@@ -1,1 +1,61 @@
 
+ body{
+      background-color:rgb(237, 243, 255);
+    }
+    
+  
+    #top{
+      border-bottom:2px solid rgb(14, 18, 22);
+      
+    }
+   #tabs{
+     text-align:right;
+    }
+    #logo{
+      position:fixed;
+      margin-left:10px;
+    }
+    
+    #banner{
+      background-color:rgb(166, 190, 237);
+      text-align:center;
+      text-color:rgb(36, 44, 56);
+      margin-top:10px;
+      margin-left:20px;
+      margin-right:20px;
+      font-family: "Helvetica", "Palatino", serif;
+      padding-top:15px;
+      padding-left:10px;
+      padding-right:10px;
+      padding-bottom:70px;
+    }
+    
+    #Register{
+      position:absolute;
+      top:8em;
+      right:28em;
+      background-color:rgb(249, 250, 252);
+      border:1px solid rgb(20, 24, 33);
+      text-align:center;
+      width:200px;
+      padding-top:6px;
+      padding-bottom:6px;
+    }
+    #Locations{
+      float:left;
+      background-color:rgb(186, 226, 205);
+    }
+    #Ratings{
+      float:right;
+      background-color:rgb(241, 222, 247);
+    }
+  
+       
+    #footer{
+      float:bottom;
+      clear:both;
+      position:absolute;
+      top:50em;
+      
+    }
+    
