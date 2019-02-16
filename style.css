@@ -1,4 +1,6 @@
+/* Code Applying to All pages */
 *{
+  /* Sets margin and font of page */
   margin:0;
   padding:0;
   font-family:Century Gothic;
@@ -15,6 +17,7 @@
   padding-top:10px;
 }
 .topnav{
+  /* Top Navigation CSS */
   float:right;
   list-style-type:none;
   margin-top:25px;
@@ -28,6 +31,7 @@
   transition:0.6s ease;
 }
 .top:hover{
+  /* Hover on Home buttons */
   color:rgb(187, 188, 191);
 }
 .imageindex img{
@@ -63,6 +67,7 @@
     color: #fff;
   }
   .button {
+    /* Register Button */
     background-color: #000;
     border: none;
     color: white;
@@ -105,7 +110,7 @@
     position:absolute;
     top:320%;
     padding: 20px 20px 20px 20px;
-    background-image:linear-gradient(rgba(10,10,20,0.5),rgba(0,0,0,0.09)),url(5.jpg);
+    background-image:linear-gradient(rgba(10,10,20,0.5),rgba(0,0,0,0.09)),url(5.JPG);
     height:20%;
     width:100%;
   }
@@ -231,7 +236,7 @@
     position:absolute;
     top:250%;
     padding: 20px 20px 20px 20px;
-    background-image:linear-gradient(rgba(10,10,20,0.5),rgba(0,0,0,0.09)),url(/5.JPG);
+    background-image:linear-gradient(rgba(10,10,20,0.5),rgba(0,0,0,0.09)),url(5.JPG);
     height:30%;
     width:100%;
   }
@@ -339,7 +344,7 @@
   }
   .infostart{
     position:absolute;
-    top:100%;
+    top:95%;
     font-size:28px;
     font-weight:bold;
     margin:20px 20px 20px 20px;
@@ -347,13 +352,13 @@
   }
   .indexcircle{
     position:absolute;
-    top:130%;
+    top:115%;
     width:100%;
 
   }
   .indexwho{
     position:absolute;
-    top:170%;
+    top:155%;
     width:60%;
     left:15%;
     border:10px solid rgb(234, 172, 79);
@@ -362,11 +367,12 @@
   }
   .infobanner{
     position:absolute;
-    top:245%;
+    top:230%;
     padding: 20px 20px 20px 20px;
-    background-image:linear-gradient(rgba(10,10,20,0.5),rgba(0,0,0,0.09)),url(/5.JPG);
+    background-image:linear-gradient(rgba(10,10,20,0.5),rgba(0,0,0,0.09)),url(5.JPG);
     height:30%;
     width:100%;
+
   }
   .infobanner p{
     font-size:100px;
@@ -376,30 +382,39 @@
     left:30%;
   }
   .sponsors{
-    top:430%;
+    top:525%;
     left:5%;
     position:absolute;
   }
   .stats{
     position:absolute;
-    top:290%;
+    top:270%;
     width:100%;
   }
   .unique{
     position:absolute;
-    top:330%;
-    left:10%;
+    top:305%;
+    left:4%;
   }
   .sfpic{
-    width:500px;
+    width:400px;
     height:auto;
     position:absolute;
-    top:380%;
+    top:385%;
     left:35%;
+    border-radius:3%;
+  }
+  .sfpic2{
+    width:400px;
+    height:auto;
+    position:absolute;
+    top:420%;
+    left:35%;
+    border-radius:3%;
   }
   .contacts{
     position:absolute;
-    top:470%;
+    top:560%;
     left:5%;
     margin-bottom:50px;
     font-size:20px;
@@ -410,9 +425,76 @@
     width:280px;
     height:200px;
   }
+  .studentinfo{
+    position:absolute;
+    top:350%;
+    left:10%;
+    display:inline-block;
+    width:20%;
+  }
+  .studentinfo2{
+    position:absolute;
+    top:362%;
+    left:70%;
+    display:inline-block;
+    width:20%;
+  }
+  .quote2{
+    position:absolute;
+    top:363%;
+    left:35%;
+    width:30%;
+    background-color: rgb(237, 239, 237);
+    padding:40px 15px 40px 20px;
+    font-style:italic;
+    font-size:23px;
+  }
+  .testimonials{
+    position:absolute;
+    top:483%;
+  }
+
+
 
 
 }
+.numstat{
+  font-size:90px;
+  font-weight:bold;
+}
+.statinfoss{
+  font-size:30px;
+  font-weight:bold;
+  color:rgb(43, 26, 155);
+
+}
+
+.quotelabel{
+  padding-top:20px;
+  padding-bottom:20px;
+  font-size:30px;
+  font-weight:bold;
+  color:#000;
+  text-align:center;
+}
+.quote{
+  font-size:22px;
+  color:rgb(40, 68, 130);
+  padding: 4px 4px;
+}
+.quote1{
+  font-size:22px;
+  color:rgb(94, 91, 88);
+  padding:4px 4px;
+}
+.quotelabel1{
+  font-size:45px;
+  font-weight:bold;
+  color:rgb(30, 96, 11);
+  text-align:center;
+
+}
+
 
 .registerbuttons{
   text-decoration:none;
